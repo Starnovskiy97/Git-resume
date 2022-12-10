@@ -170,7 +170,7 @@ body {
 
 /*---------------------------------------MAIN-BLOCK------------------------------------------*/
 .main-block {
-   background-image: url(../VR-traveling/Image/FON1.2.jpg), url(../VR-traveling/Image/FON1.jpg);
+   background-image: url(Image/FON1.2.jpg), url(Image/FON1.jpg);
    background-size: contain, contain;
    background-repeat: no-repeat;
    background-position: 0 0, 320px 0;
@@ -178,7 +178,7 @@ body {
 
 @media (max-width:768px) {
    .main-block {
-      background-image: url(../VR-traveling/Image/image\ 768.jpg);
+      background-image: url(Image/image\ 768.jpg);
       background-size: 100% 100%;
       background-repeat: no-repeat;
       background-position: 0 0;
@@ -187,7 +187,7 @@ body {
 
 @media (max-width:320px) {
    .main-block {
-      background-image: url(../VR-traveling/Image/image\ 320.jpg);
+      background-image: url(Image/image\ 320.jpg);
       background-size: 100% auto;
       background-repeat: no-repeat;
       background-position: 0 0;
@@ -533,7 +533,7 @@ body {
    position: relative;
    width: 1170px;
    height: 360px;
-   background-image: url(../VR-traveling/Image/MAP1-1.jpg);
+   background-image: url(Image/MAP1-1.jpg);
    background-size: contain;
    background-repeat: no-repeat;
    background-position: 0 0;
@@ -541,13 +541,13 @@ body {
 
 @media (max-width:768px) {
    .places__map {
-      background-image: url(../VR-traveling/Image/MAP1-2.jpg);
+      background-image: url(Image/MAP1-2.jpg);
    }
 }
 
 @media (max-width:320px) {
    .places__map {
-      background-image: url(../VR-traveling/Image/MAP1-3.jpg);
+      background-image: url(Image/MAP1-3.jpg);
       background-size: auto auto;
       margin-left: -10px;
    }
@@ -644,7 +644,7 @@ body {
 
 .video__body {
    height: 617px;
-   background-image: url(../VR-traveling/Image/video.jpg);
+   background-image: url(Image/video.jpg);
    background-size: contain;
    background-repeat: no-repeat;
    background-position: 0 0;
@@ -653,7 +653,7 @@ body {
 
 @media (max-width:768px) {
    .video__body {
-      background-image: url(../VR-traveling/Image/video768.jpg);
+      background-image: url(Image/video768.jpg);
       background-size: auto auto;
       height: 329px;
    }
@@ -662,7 +662,7 @@ body {
 @media (max-width:320px) {
    .video__body {
       margin: 0;
-      background-image: url(../VR-traveling/Image/video320.jpg);
+      background-image: url(Image/video320.jpg);
       background-size: auto auto;
       height: 360px;
    }
@@ -1004,6 +1004,7 @@ body {
 
 .form__button {
    position: relative;
+   cursor: pointer;
    left: 215px;
    font-size: 12px;
    font-weight: 700;
